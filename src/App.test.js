@@ -4,8 +4,6 @@ import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 
 import App from "./App";
 
-jest.mock("./api/Settings");
-
 it("renders without crashing", () => {
   const div = document.createElement("div");
   ReactDOM.render(
